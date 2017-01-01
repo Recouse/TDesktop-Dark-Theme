@@ -244,7 +244,7 @@ msgOutReplyBarColor: historyOutIconFg;
 msgOutReplyBarSelColor: historyOutIconFgSelected;
 msgImgReplyBarColor: msgServiceFg;
 msgInMonoFg: #4e7391;
-msgOutMonoFg: #469165;
+msgOutMonoFg: #006C40;
 msgDateImgFg: msgServiceFg;
 msgDateImgBg: #00000054;
 msgDateImgBgOver: #00000074;
