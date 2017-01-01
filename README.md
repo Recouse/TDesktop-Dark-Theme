@@ -1,5 +1,5 @@
 # Telegram Desktop Dark Theme
-![Telegram Desktop Dark Theme](https://www.dropbox.com/s/adnjrjjucai0dzp/2017-01-01_124604.png?dl=1)
+![Telegram Desktop Dark Theme](https://www.dropbox.com/s/1m0hzg8k8gkdesw/2017-01-01_171644.png?dl=1)
 
 ## Installation
 1. Download latest build from releases.
