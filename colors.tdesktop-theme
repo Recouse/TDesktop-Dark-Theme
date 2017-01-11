@@ -1,7 +1,7 @@
 //
-// Telegram Desktop Dark Theme.
-// By Recouse. 
-// https://telegram.me/Recouse
+// Telegram Desktop Dark Theme
+// By Recouse
+// https://t.me/recouse
 //
 
 windowBg: #333333;
@@ -17,15 +17,15 @@ windowBgActive: #00B16A;
 windowFgActive: #ffffff;
 windowActiveTextFg: #eeeeee;
 windowShadowFg: #000000;
-windowShadowFgFallback: #f1f1f1;
+windowShadowFgFallback: #333333;
 shadowFg: #00000018;
 slideFadeOutBg: #0000003c;
 slideFadeOutShadowFg: windowShadowFg;
 imageBg: #000000;
 imageBgTransparent: #ffffff;
 activeButtonBg: windowBgActive;
-activeButtonBgOver: #019875;
-activeButtonBgRipple: #00B16A;
+activeButtonBgOver: #008952;
+activeButtonBgRipple: #006C40;
 activeButtonFg: windowFgActive;
 activeButtonFgOver: activeButtonFg;
 activeButtonSecondaryFg: #cceeff;
@@ -155,7 +155,7 @@ dialogsChatIconFgActive: dialogsNameFgActive;
 dialogsDateFgActive: windowFgActive;
 dialogsTextFgActive: windowFgActive;
 dialogsTextFgServiceActive: dialogsTextFgActive;
-dialogsDraftFgActive: #c6e1f7;
+dialogsDraftFgActive: #eeeeee;
 dialogsVerifiedIconBgActive: dialogsTextFgActive;
 dialogsVerifiedIconFgActive: dialogsBgActive;
 dialogsSendingIconFgActive: #ffffff99;
@@ -191,9 +191,9 @@ historySendingInvertedIconFg: #ffffffc8;
 historySystemBg: #89a0b47f;
 historySystemBgSelected: #bbc8d4a2;
 historySystemFg: windowFgActive;
-historyUnreadBarBg: #fcfbfa;
-historyUnreadBarBorder: shadowFg;
-historyUnreadBarFg: #538bb4;
+historyUnreadBarBg: #00B16A;
+historyUnreadBarBorder: #00B16A;
+historyUnreadBarFg: #eeeeee;
 historyForwardChooseBg: #0000004c;
 historyForwardChooseFg: windowFgActive;
 historyPeer1NameFg: #c03d33;
@@ -254,8 +254,8 @@ msgFileThumbLinkInFgSelected: lightButtonFgOver;
 msgFileThumbLinkOutFg: #5eba5b;
 msgFileThumbLinkOutFgSelected: #31a298;
 msgFileInBg: windowBgActive;
-msgFileInBgOver: #4eade3;
-msgFileInBgSelected: #51a3d3;
+msgFileInBgOver: #00B16A;
+msgFileInBgSelected: #00B16A;
 msgFileOutBg: #78c67f;
 msgFileOutBgOver: #6bc272;
 msgFileOutBgSelected: #5fb389;
@@ -275,12 +275,24 @@ msgFile4Bg: #efc274;
 msgFile4BgDark: #e6a561;
 msgFile4BgOver: #dc9c5a;
 msgFile4BgSelected: #b19d84;
+historyFileInIconFg: msgInBg;
+historyFileInIconFgSelected: msgInBgSelected;
+historyFileInRadialFg: historyFileInIconFg;
+historyFileInRadialFgSelected: historyFileInIconFgSelected;
+historyFileOutIconFg: msgOutBg;
+historyFileOutIconFgSelected: msgOutBgSelected;
+historyFileOutRadialFg: historyFileOutIconFg;
+historyFileOutRadialFgSelected: historyFileOutIconFgSelected;
+historyFileThumbIconFg: msgInBg;
+historyFileThumbIconFgSelected: msgInBgSelected;
+historyFileThumbRadialFg: historyFileThumbIconFg;
+historyFileThumbRadialFgSelected: historyFileThumbIconFgSelected;
 msgWaveformInActive: windowBgActive;
 msgWaveformInActiveSelected: #51a3d3;
 msgWaveformInInactive: #d4dee6;
 msgWaveformInInactiveSelected: #9cc1e1;
 msgWaveformOutActive: #78c67f;
-msgWaveformOutActiveSelected: #6badad;
+msgWaveformOutActiveSelected: #00B16A;
 msgWaveformOutInactive: #b3e2b4;
 msgWaveformOutInactiveSelected: #91c3c3;
 msgBotKbOverBgAdd: #ffffff20;
@@ -308,6 +320,7 @@ historySendIconFg: windowBgActive;
 historySendIconFgOver: windowBgActive;
 historyPinnedBg: historyComposeAreaBg;
 historyReplyBg: historyComposeAreaBg;
+historyReplyIconFg: windowBgActive;
 historyReplyCancelFg: cancelIconFg;
 historyReplyCancelFgOver: cancelIconFgOver;
 historyComposeButtonBg: historyComposeAreaBg;
@@ -318,7 +331,9 @@ overviewCheckFg: windowBg;
 overviewCheckFgActive: windowBg;
 overviewPhotoSelectOverlay: #40ace333;
 profileStatusFgOver: #7c99b2;
-notificationsBoxMonitorFg: windowFg;
+profileVerifiedCheckBg: windowBgActive;
+profileVerifiedCheckFg: windowFgActive;
+notificationsBoxMonitorFg: #333333;
 notificationsBoxScreenBg: dialogsBgActive;
 notificationSampleUserpicFg: windowBgActive;
 notificationSampleCloseFg: #d7d7d7; // windowSubTextFg;
