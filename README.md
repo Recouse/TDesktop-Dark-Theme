@@ -8,3 +8,5 @@
 
 ## License
 MIT License [LICENSE](LICENSE).
+
+> Browse more themes on [Telegram Themes](https://t.me/tgthemes) channel!
