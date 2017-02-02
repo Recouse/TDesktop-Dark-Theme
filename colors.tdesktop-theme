@@ -4,6 +4,7 @@
 // https://t.me/recouse
 //
 
+// basic
 windowBg: #333333;
 windowFg: #eeeeee;
 windowBgOver: #1F1F1F;
@@ -23,6 +24,8 @@ slideFadeOutBg: #0000003c;
 slideFadeOutShadowFg: windowShadowFg;
 imageBg: #000000;
 imageBgTransparent: #ffffff;
+
+// widgets
 activeButtonBg: windowBgActive;
 activeButtonBgOver: #008952;
 activeButtonBgRipple: #006C40;
@@ -72,6 +75,8 @@ sliderBgActive: windowBgActive;
 tooltipBg: #eef2f5;
 tooltipFg: #5d6c80;
 tooltipBorderFg: #c9d1db;
+
+// custom title bar for Windows and macOS
 titleShadow: #00000003;
 titleBg: windowBgOver;
 titleBgActive: titleBg;
@@ -93,14 +98,20 @@ titleButtonCloseBgActiveOver: titleButtonCloseBgOver;
 titleButtonCloseFgActiveOver: titleButtonCloseFgOver;
 titleFg: #acacac;
 titleFgActive: #eeeeee;
+
+// tray icon
 trayCounterBg: #f23c34;
 trayCounterBgMute: #888888;
 trayCounterFg: #ffffff;
 trayCounterBgMacInvert: #ffffff;
 trayCounterFgMacInvert: #ffffff01;
+
+// layers
 layerBg: #0000007f;
 cancelIconFg: menuIconFg;
 cancelIconFgOver: menuIconFgOver;
+
+// boxes
 boxBg: windowBg;
 boxTextFg: windowFg;
 boxTextFgGood: #4ab44a;
@@ -132,6 +143,8 @@ introCoverPlaneTrace: #28B67D69;
 introCoverPlaneInner: #4DC595;
 introCoverPlaneOuter: #4DC595;
 introCoverPlaneTop: #ffffff;
+
+// dialogs
 dialogsMenuIconFg: menuIconFg;
 dialogsMenuIconFgOver: menuIconFgOver;
 dialogsBg: windowBg;
@@ -162,6 +175,7 @@ dialogsSentIconFgOver: dialogsSentIconFg;
 dialogsUnreadBgOver: dialogsUnreadBg;
 dialogsUnreadBgMutedOver: dialogsUnreadBgMuted;
 dialogsUnreadFgOver: dialogsUnreadFg;
+
 dialogsBgActive: #00B16A;
 dialogsNameFgActive: windowFgActive;
 dialogsChatIconFgActive: dialogsNameFgActive;
@@ -178,9 +192,12 @@ dialogsUnreadBgMutedActive: dialogsDraftFgActive;
 dialogsUnreadFgActive: dialogsBgActive;
 dialogsForwardBg: dialogsBgActive;
 dialogsForwardFg: dialogsNameFgActive;
+
 searchedBarBg: #242424;
 searchedBarBorder: #242424;
 searchedBarFg: #242424;
+
+// history
 topBarBg: windowBg;
 emojiPanBg: windowBg;
 emojiPanCategories: windowBg; // windowBg;
@@ -248,7 +265,7 @@ msgInDateFg: #eeeeee;
 msgInDateFgSelected: #00B16A;
 msgOutDateFg: #333333;
 msgOutDateFgSelected: #00B16A;
-msgServiceFg: windowActiveFg;
+msgServiceFg: windowFgActive;
 msgServiceBg: #556e837f;
 msgServiceBgSelected: #8ca0b3a2;
 msgInReplyBarColor: activeLineFg;
@@ -344,14 +361,20 @@ historyReplyCancelFgOver: cancelIconFgOver;
 historyComposeButtonBg: historyComposeAreaBg;
 historyComposeButtonBgOver: windowBgOver;
 historyComposeButtonBgRipple: windowBgRipple;
+
+// overview
 overviewCheckBg: #00000040;
 overviewCheckFg: windowBg;
 overviewCheckFgActive: windowBg;
 overviewPhotoSelectOverlay: #40ace333;
+
+// profile
 profileStatusFgOver: #7c99b2;
 profileVerifiedCheckBg: windowBgActive;
 profileVerifiedCheckFg: windowFgActive;
 profileAdminStartFg: windowBgActive;
+
+// settings
 notificationsBoxMonitorFg: #333333;
 notificationsBoxScreenBg: dialogsBgActive;
 notificationSampleUserpicFg: windowBgActive;
@@ -394,5 +417,7 @@ mediaviewPlaybackProgressFg: #ffffffc7;
 mediaviewPlaybackIconFg: mediaviewPlaybackActive;
 mediaviewPlaybackIconFgOver: mediaviewPlaybackActiveOver;
 mediaviewTransparentBg: #ffffff;
-mediaviewTransparentFg: #cccccc;
+mediaviewTransparentFg: #cccccc; 
+
+// notification
 notificationBg: windowBg;
